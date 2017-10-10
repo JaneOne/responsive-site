@@ -1,0 +1,69 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #013d5d;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  margin: 0;
+  background-color: #f3f9f9; }
+
+#head-image {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  background-size: cover;
+  background-image: url("images/sea-water-shore.jpg");
+  background-position: center center;
+  margin-bottom: 15px; }
+
+@media (max-width: 768px) {
+  #head-image {
+    height: 250px; } }
+.text-center {
+  text-align: center;
+  font-weight: bold; }
+
+#flex-group {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  margin: 15px; }
+
+.flex-cell {
+  flex: 1;
+  margin: 5px;
+  background-color: #8b633a; }
+
+.cell-line1 {
+  background-color: #aac7c7;
+  margin-top: 0px; }
+
+.cell-line-below {
+  background-color: #8b633a;
+  color: #fff; }
+
+@media (max-width: 768px) {
+  #flex-group {
+    flex-direction: column;
+    display: block; } }
+#foot-color {
+  width: 100%;
+  background-size: cover;
+  background-color: #aac7c7;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.myButton {
+  width: 200px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 8px 0 10px;
+  color: #fff;
+  background-color: #8b633a;
+  border-radius: 5px;
+  margin: auto; }
+
+/*# sourceMappingURL=style.css.map */
